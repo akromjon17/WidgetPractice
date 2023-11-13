@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-import 'counter.dart';
-
-void main() {
-  runApp(MyApp());
-}
 
 class CounterWidget extends StatefulWidget {
   @override
@@ -33,17 +28,6 @@ class _CounterWidgetState extends State<CounterWidget> {
           child: Text('Increment'),
         ),
       ],
-    );
-  }
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: CounterWidget(),
-      ),
     );
   }
 }
